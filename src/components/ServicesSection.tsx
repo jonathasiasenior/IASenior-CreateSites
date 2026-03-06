@@ -5,7 +5,7 @@ const services = [
   {
     icon: Globe,
     title: "Sites Institucionais",
-    description: "Sites profissionais que transmitem credibilidade e fortalecem a presença da sua marca na internet.",
+    description: "Sites profissionais que transmitem credibilidade. Atendemos clientes no Brasil e nos Estados Unidos.",
   },
   {
     icon: Rocket,
@@ -19,8 +19,8 @@ const services = [
   },
   {
     icon: Smartphone,
-    title: "Design Responsivo",
-    description: "Todos os projetos são 100% responsivos, funcionando perfeitamente em celulares, tablets e desktops.",
+    title: "Micro-SaaS & Apps",
+    description: "Sistemas web, micro-SaaS e aplicativos sob medida para automatizar e escalar o seu negócio.",
   },
 ];
 

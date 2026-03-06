@@ -20,8 +20,11 @@ const CTASection = () => {
           <h2 className="text-3xl md:text-5xl font-display font-bold mb-4">
             Pronto para <span className="text-gradient">transformar</span> seu negócio?
           </h2>
-          <p className="text-muted-foreground text-lg mb-8 max-w-lg mx-auto">
+          <p className="text-muted-foreground text-lg mb-4 max-w-lg mx-auto">
             Fale agora com um especialista da IASenior e receba um orçamento personalizado sem compromisso.
+          </p>
+          <p className="text-primary font-display font-bold text-xl mb-8">
+            A partir de R$ 20/mês ou 12x de R$ 180 · Entrega em até 3 dias
           </p>
           <motion.a
             href={WHATSAPP_LINK}

@@ -3,11 +3,11 @@ import { Check, TrendingUp, Shield, Clock, Search, Users, Zap, BarChart3 } from 
 
 const benefits = [
   { icon: TrendingUp, title: "Aumente suas vendas", desc: "Clientes encontram e compram de você 24 horas por dia, 7 dias por semana." },
-  { icon: Shield, title: "Credibilidade profissional", desc: "Um site bem feito transmite confiança e destaca sua empresa da concorrência." },
+  { icon: Clock, title: "Entrega em até 3 dias", desc: "Receba seu site pronto rapidamente. Trabalhamos com agilidade sem perder qualidade." },
+  { icon: Shield, title: "+12 anos de experiência", desc: "Mais de uma década criando sites e sistemas para clientes no Brasil e nos EUA." },
   { icon: Search, title: "Apareça no Google", desc: "Sites otimizados para SEO que colocam sua empresa nos primeiros resultados." },
-  { icon: Users, title: "Alcance mais clientes", desc: "Expanda seu mercado para além da sua cidade com presença digital forte." },
-  { icon: Zap, title: "Performance máxima", desc: "Sites ultra-rápidos que carregam em menos de 2 segundos." },
-  { icon: BarChart3, title: "Resultados mensuráveis", desc: "Acompanhe métricas e saiba exatamente o retorno do seu investimento." },
+  { icon: Users, title: "A partir de R$ 20/mês", desc: "Planos acessíveis ou parcele em até 12x de R$ 180. Invista pouco, ganhe muito." },
+  { icon: Zap, title: "100% responsivo", desc: "Sites totalmente adaptados para computador, tablet e celular. Perfeito em qualquer tela." },
 ];
 
 const BenefitsSection = () => {

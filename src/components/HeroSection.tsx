@@ -34,10 +34,24 @@ const HeroSection = () => {
             de impacto
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            Criamos sites, landing pages e e-commerces que transformam visitantes em clientes. 
-            Design moderno, performance e resultados reais.
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
+            Criamos sites, landing pages, e-commerces, micro-SaaS e aplicativos que transformam visitantes em clientes. 
+            Design moderno, performance e resultados reais para empresas no Brasil e nos Estados Unidos.
           </p>
+
+          {/* Highlights */}
+          <div className="flex flex-wrap justify-center gap-3 mb-10">
+            {[
+              "🏆 +12 anos de experiência",
+              "⚡ Entrega em até 3 dias",
+              "📱 100% responsivo",
+              "💰 A partir de R$ 20/mês",
+            ].map((tag) => (
+              <span key={tag} className="glass-card glow-border px-4 py-2 text-sm font-semibold text-foreground">
+                {tag}
+              </span>
+            ))}
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.a
@@ -70,10 +84,10 @@ const HeroSection = () => {
           className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto"
         >
           {[
+            { value: "12+", label: "Anos de Experiência" },
             { value: "150+", label: "Sites Entregues" },
-            { value: "98%", label: "Clientes Satisfeitos" },
-            { value: "5x", label: "Mais Conversões" },
-            { value: "24h", label: "Suporte Rápido" },
+            { value: "3 dias", label: "Entrega Rápida" },
+            { value: "R$20", label: "A partir de /mês" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <p className="text-2xl md:text-3xl font-display font-bold text-primary">{stat.value}</p>
