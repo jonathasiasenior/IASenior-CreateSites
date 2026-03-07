@@ -5,22 +5,22 @@ const services = [
   {
     icon: Globe,
     title: "Sites Institucionais",
-    description: "Sites profissionais que transmitem credibilidade. Atendemos clientes no Brasil e nos Estados Unidos.",
+    description: "Transmita credibilidade e profissionalismo. Seu cliente confia mais em quem tem um site bem feito.",
   },
   {
     icon: Rocket,
     title: "Landing Pages",
-    description: "Páginas de alta conversão focadas em capturar leads e vender mais com design persuasivo.",
+    description: "Páginas focadas em um único objetivo: transformar visitantes em clientes que compram ou entram em contato.",
   },
   {
     icon: ShoppingCart,
     title: "E-commerces",
-    description: "Lojas virtuais completas com checkout otimizado, gestão de produtos e integração com pagamentos.",
+    description: "Sua loja aberta 24h por dia, 7 dias por semana. Venda seus produtos pela internet sem limite geográfico.",
   },
   {
     icon: Smartphone,
     title: "Micro-SaaS & Apps",
-    description: "Sistemas web, micro-SaaS e aplicativos sob medida para automatizar e escalar o seu negócio.",
+    description: "Sistemas e aplicativos sob medida para automatizar processos e escalar o seu negócio sem aumentar custos.",
   },
 ];
 
@@ -34,10 +34,13 @@ const ServicesSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-primary font-semibold text-sm tracking-widest uppercase">Nossos Serviços</span>
+          <span className="text-primary font-semibold text-sm tracking-widest uppercase">O Que Criamos Para Você</span>
           <h2 className="text-3xl md:text-5xl font-display font-bold mt-3">
-            Soluções digitais sob medida
+            A solução certa para o seu negócio <span className="text-gradient">crescer</span>
           </h2>
+          <p className="text-muted-foreground mt-4 max-w-xl mx-auto">
+            Desde sites simples até sistemas completos. Tudo com design profissional, pronto em até 3 dias e com preço que cabe no seu bolso.
+          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
